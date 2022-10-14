@@ -1,0 +1,14 @@
+
+#containerFooter
+{
+    width: 100%;
+    background-color: rgb(29, 29, 29);
+    color: rgb(252, 252, 252);
+    letter-spacing: 1px;
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-transform: uppercase;
+    font-size: 20px;
+        padding: 15px 300px;
+        box-sizing: border-box;
+}

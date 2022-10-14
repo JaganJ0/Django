@@ -1,0 +1,127 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+    <title> ITILITE-SHOPZ</title>
+
+    <link rel="icon" href="https://yt3.ggpht.com/a/AGF-l78km1YyNXmF0r3-0CycCA0HLA_i6zYn_8NZEg=s900-c-k-c0xffffffff-no-rj-mo" type="image/gif" sizes="16x16">
+    <script src="https://kit.fontawesome.com/4a3b1f73a2.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <script src="js/jQuery3.4.1.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+
+
+
+    <link rel="stylesheet" href="{% static 'css/header.css' %}">
+    <link rel="stylesheet" href="{% static 'css/footer.css' %}">
+
+<style>
+body{
+        background-color:grey;
+    }
+    #containerSlider
+        {
+            margin: auto;
+            width: 90%;
+            text-align: center;
+            padding-top: 80px;
+            box-sizing: border-box;
+        }
+       
+
+</style>
+</head>
+<body>
+
+
+    <header>
+        <section>
+            <div id="container">
+                <div id="shopName"><a href="index.html">ITILITE-SHOPZ </a></div>
+                    <div id="collection">
+                        <div id="clothing"><a href="https://www.myntra.com/shop/men"> MEN </a></div>
+                        <div id="accessories"><a href="https://www.myntra.com/shop/women"> WOMEN </a></div>
+                        <div id="accessories"><a href="https://www.myntra.com/shop/kids"> KIDS </a></div>
+                        <div id="accessories"><a href="https://www.flipkart.com/kitchen-cookware-serveware/pr?count=40&otracker=CLP_lhs&sid=upp&fm=neo%2Fmerchandising&iid=M_6d39aca4-ff70-4050-a7fe-6fc2c9a124bd_1_372UD5BXDFYS_MC.4EYWRCGS3WUT&otracker=hp_rich_navigation_4_1.navigationCard.RICH_NAVIGATION_Home~Kitchen%2B%2526%2BDining_4EYWRCGS3WUT&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_4_L1_view-all&cid=4EYWRCGS3WUT"> KITCHEN </a></div>
+
+                    </div>
+
+
+                    <div id="search">
+                        <input type="text" id="input" name="searchBox" placeholder="search">
+                    </div>
+
+
+
+                    <div id="user">
+                        <a href="cart.html"> <i class="fas fa-shopping-cart addedToCart"><div id="badge"> 0 </div></i></a>
+                        <div id="LOGin"><a href="{% url 'login' %}"> LOGin </a></div>
+                        <div id="Register"><a href="{% url 'register' %}"> Register </a></div>
+
+
+                    </div>
+            </div>
+
+        </section>
+    </header>
+
+<br><br><br><br>
+<br><br><br><br>
+<br><br><br><br>
+<br><br><br><br>
+<br>
+
+
+
+<section>
+    <div id="containerSlider">
+        <div id="slidingImage"> <img src="img/amz11.jpg" alt="image1"> </div>
+    </div>
+</section>
+
+
+<footer>
+    <section>    
+        <div id="containerFooter">
+            
+            <div id="webFooter">
+                <h3> online store </h3>
+                <p> men clothing </p>
+                <p> women clothing </p>
+                <p> men accessories </p>
+                <p> women accessories </p>
+            </div>
+            <div id="webFooter">
+                <h3> helpful link </h3>
+                <p> home </p>
+                <p> about </p>
+                <p> contact </p>
+            </div>
+            <div id="webFooter">
+                <h3> Contact</h3>
+                <p> SAI KUMAR V R </p>
+                <p> JAGAN J </p>
+                <p> PHANINDHRA REDDY KAKUMANU </p>
+
+            </div>
+            <div id="webFooter">
+                <h3> address </h3>
+                <p> ITILITE TECHNOLOGY  </p>
+                <p> 91SPRINGBOARD </p>
+                <p> SWAMI VIVEKANANDA ROAD </p>
+                <p> BENGALURU</p>
+            </div>
+        </div>
+    </section>
+
+</footer>
+
+</body>
+
+</html>
